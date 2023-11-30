@@ -1,9 +1,7 @@
 require("dotenv").config();
 
 const PORT = process.env.PORT;
-const MONGODB_URI =
-  process.env.MONGODB_URI ||
-  "mongodb+srv://tvstddev:zsMHncrTHqHiCE1p@cluster0.rilfp6p.mongodb.net/tvstddatabank?retryWrites=true&w=majority";
+const MONGODB_URI = process.env.MONGODB_URI;
 const PASS_SECRET_CRYPTOJS = process.env.PASS_SECRET_CRYPTOJS;
 const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
 const JWT_RFR_SECRET_KEY = process.env.JWT_RFR_SECRET_KEY;
